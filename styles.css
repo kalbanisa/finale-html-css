@@ -1,0 +1,205 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px 30px;
+    
+   
+}
+span {
+    color: red;
+}
+.item{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.item li a:hover{
+    color: red;
+    border-bottom: 1px solid;
+}
+.item1 a{
+    color: red;
+    border-bottom: 1px solid;
+}
+a{
+    color: black;
+}
+.bg{
+background-image: url(Image/portfolio-1-600x400.jpg.webp);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.text{
+  padding: 90px 70px;  
+   
+}
+.text p,h1{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.text button{
+   padding: .8rem;
+    border-radius: 20px;
+    background: #04100d;
+    color: #fff;
+    cursor: pointer;
+}
+.image img{
+    width: 100%;
+    max-width: 100%;
+
+}
+.Get{
+    padding: 50px 60px;
+}
+.intro{
+    padding:30px 40px;
+}
+.containeur2{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.intro h2{
+    border-left: 1px solid blue ;
+    flex-direction: column;
+    
+}
+section{
+    padding: 20px 20px;
+}
+.TEXE p{
+    margin-bottom: 10px;
+}
+  h2, h3{
+     display: flex;
+     justify-content: center;
+     margin-bottom: 10px;
+}
+.containeur3{
+    display: flex;
+    justify-content: space-between;
+}
+.bg2 img{
+     width: 650vh;
+     max-width: 100%;
+    object-fit: cover;
+    height: 70vh;
+    
+}
+.retail{
+    background: rgba(95, 158, 160, 0.6);
+    height: 70vh;
+    padding: 20px 30px;  
+    
+}
+.retail p{
+     letter-spacing: 3px;
+}
+.pot{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+     padding-top: 20px;
+     margin-bottom: 10px;
+     
+}
+ .con{
+    padding: 20px 30px;
+ }
+  
+.Featur img{
+    object-fit: cover;
+    width: 100%;
+    padding-left: 30px;
+    padding-right:30px;
+    
+}
+.new1 {
+    background-image: url(Image/portfolio-5-600x800.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 75vh;
+    max-width: 50vh;
+
+}
+.new2{
+    background-image: url(Image/portfolio-6-600x800.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 75vh;
+    max-width: 50vh;
+}
+.new3{
+    background-image: url(Image/portfolio-7-600x800.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 75vh;
+    max-width: 50vh;
+
+}
+.coe{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+
+}
+ 
+.ALL li a{
+     display: flex;
+     justify-content: center;
+    /* border-bottom: 1px solid red ; */
+    width: 100%;
+    
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.icon li i{
+    color: #fff;
+}
+footer{
+    background: #04100d;
+    color: #fff;
+    
+}
+.footer{
+    padding: 5rem 7rem;
+}
+.fff{
+    padding-top: 2rem;
+}
+.bla p{
+    /* word-spacing: 1rem; */
+    margin-bottom: 1.5rem;
+}
+@media screen and (max-width:760px) {
+  ul, .containeur2, .containeur3{
+     flex-direction: column;
+  }  
+     section{
+        margin-bottom: 20px;
+    }
+    .new p{
+    margin-top:-20px; ;
+    }
+}
