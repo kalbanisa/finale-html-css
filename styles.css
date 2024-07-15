@@ -55,9 +55,12 @@ background-position: center;
     cursor: pointer;
 }
 .image img{
-    width: 100%;
-    max-width: 100%;
-
+    
+    width: 350vh;
+    max-width: 50vh;
+   object-fit: cover;
+   padding: 20px 30px;
+    
 }
 .Get{
     padding: 50px 60px;
@@ -121,7 +124,7 @@ section{
 .Featur img{
     object-fit: cover;
     width: 100%;
-    padding-left: 30px;
+    padding-left:30px;
     padding-right:30px;
     
 }
@@ -193,7 +196,7 @@ footer{
     margin-bottom: 1.5rem;
 }
 @media screen and (max-width:760px) {
-  ul, .containeur2, .containeur3{
+  ul, .containeur2, .containeur3, nav{
      flex-direction: column;
   }  
      section{
@@ -201,5 +204,11 @@ footer{
     }
     .new p{
     margin-top:-20px; ;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .Get{
+        padding: 25px 30px;
     }
 }
